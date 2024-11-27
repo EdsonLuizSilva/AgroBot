@@ -1,0 +1,149 @@
+h2, h3 {
+    color: #007b43;
+}
+
+p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+header{
+    background: #59a33a;
+    opacity: 0.8;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('imagens/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Garanta que o texto seja visível */
+
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    color: #f9f9f9;
+    font-size: 1.25rem;
+}
+
+.test {
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+
+}
+.fundo{
+    background: black;
+    opacity: 0.8;
+}
+ul li i{
+    margin-right: 10px;
+    color: #59a33a;
+}
+
+
+.card img{
+    align-self: center;
+    width: 40%;
+    margin-top: 5px;
+}
+.card h5{
+    text-align: center;
+}
+
+.architecture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Garante que o texto também fique centralizado */
+    /*height: 100vh; /* Define a altura da div como 100% da altura da tela */
+    margin-top: 40px;
+}
+
+.architecture{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.architecture h3{
+    margin-top: 40px;
+}
+.architecture img{
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: stretch;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1; /* Faz com que o conteúdo se expanda para preencher o espaço disponível */
+}
+
+#contact p{
+    text-align: center;
+}
+#goals p {
+    text-align: center;
+}
+#how-it-works {
+    text-align: center;
+}
+
+.video-container {
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+footer p {
+    color: #f9f9f9;
+}
+
+#team .card {
+    width: 300px; /* Define a largura do card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden; /* Garante que o conteúdo extra não ultrapasse o card */
+}
+
+#team .card img{
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 200px; /* Limita a altura máxima */
+    object-fit: contain; /* Garante que a imagem inteira será visível, mesmo que sobre espaço em branco */
+    background-color: #f4f4f4; /* Opcional: cor de fundo para imagens menores */
+}
